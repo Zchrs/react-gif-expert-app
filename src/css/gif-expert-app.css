@@ -1,0 +1,86 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: rgb(234, 234, 234);
+  }
+  
+  body {
+    padding: 60px;
+  }
+  
+  input {
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid rgb(97, 32, 158);
+    color: black;
+    font-size: 1.2rem;
+    outline: none;
+    padding: 10px 15px;
+    width: 100%;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+  }
+  
+  h3 {
+    display: block;
+    font-size: 3rem;
+    margin-bottom: 5px;
+    width: 100%;
+    /* border: black 1px solid; */
+  }
+  .card h5{
+    margin: 0;
+    text-align: center;
+    position: sticky;
+    display: block;
+    z-index: 10;
+    top: 0;
+    background: rgba(255, 255, 255, 0.766);
+  }
+  .card-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    justify-content: center;
+    /* background: rgba(0, 0, 0, 0.457); */
+  }
+  
+  .card {
+    align-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    width: 210px;
+    height: 180px;  
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    overflow: hidden;
+    /* border: black 1px solid; */
+    transition: all ease .5s;
+  }
+  .card:hover{
+    position: relative;
+    width: 280px;
+  }
+  .card p {
+    background-color: white;
+    flex: 1;
+    font-size: 1.5rem;
+    margin-top: 5px;
+    padding: 5px 20px 0px 20px;
+    text-align: center;
+  }
+  
+  .card img {
+    position: relative;
+    
+    width: 100%;
+    
+  }
